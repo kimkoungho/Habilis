@@ -1,0 +1,720 @@
+﻿@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html,body
+{
+    margin:0;
+    width:100%;
+    height:100%;
+    /* background-color:#ecedee; */
+    background-color:#1d232a;
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
+input:focus{
+    outline: none;
+}
+.wrap
+{
+    position:relative;
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    display:inline-table;
+}
+#first_side, #second_side{
+	display:inline-block;
+	width:100%;
+	height:100%;
+	float:left;
+	box-shadow:1px 0 2px #111;
+}
+.side_bar
+{
+	display:inline-block;
+    height:100%;
+    width:98%;
+    float:left;
+    background-color:#1d232a;
+    box-shadow:1px 0 2px #111;
+}
+.side_wrap
+{
+    width:98%;
+    height:100%;
+    text-align:center;
+    color:white;
+    font-weight:800;
+    box-shadow:1px 0 2px #111;
+}
+.menu
+{
+	width:100%;
+    background-color:#1d232a;
+}
+.side_wrap img
+{
+    display:block;
+    clear:both;
+    width:50%;
+    padding:25%;
+}
+
+.content_menu
+{
+    clear:both;
+    width:100%;
+    height:8%;
+    background-color:#5a5c5d;
+}
+.menu_name
+{
+    width:10%;
+    height:100%;
+    text-align:center;
+    background-color:#ecedee;
+    font-size:30px;
+    font-weight:800;
+    padding:1%;
+    display:inline-block;
+    margin-top:30px;
+   
+}
+.content_border
+{
+    width:100%;
+    height:100%;
+    background-color:#ecedee;
+}
+.content_info
+{
+    width:96%;
+    background-color:white;
+    margin:2%;
+}
+.page_title
+{
+    padding-top:2%;
+    font-size:40px;
+    color:black;
+    font-weight:800;
+    text-align:center;
+}
+.page_info
+{
+    font-size:20px;
+    color:black;
+    font-weight:500;
+    text-align:center;
+    margin-top:2%;
+}
+.member_wrap
+{
+    width:90%;
+    height:100%;
+    padding-left:5%;
+    padding-right:5%;
+    margin-top:10%;
+    padding-bottom:15%;
+ 
+}
+.member_sub_wrap
+{
+    width:32.5%;
+    height:100%;
+    display:inline-block;
+    text-align:center;
+}
+
+
+.index_name
+{
+    width:50%;
+    display:inline-block;
+    font-size:13px;
+    text-align:left;
+    padding-left:3%;
+}
+.index_img
+{
+    width:10%;
+    display:inline-block;
+}
+.nav_bar img
+{
+    width:30%;
+    margin-left:35%;
+    padding-top:30%;
+}
+.nav_menu_wrap
+{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:30%;
+    height:100%;
+    background-color:white;
+    display:block;
+    font-size:2.5vw;
+    z-index:5;
+    display:none;
+}
+.web_title
+{
+    width:94%;
+    height:5%;
+    background-color:royalblue;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:3%;
+    padding-right:3%;
+}
+.nav_sub_menu
+{
+    text-decoration:none;
+    width:90%;
+    margin-left:5%;
+    font-size:2vw;
+    background-color:white;
+    margin-top:7%;
+    list-style:none;
+
+}
+
+.user_icon
+{
+    width:50%;
+    padding-left:25%;
+    padding-right:25%;
+    margin-top:5%;
+    text-align:center;
+}
+.split_line
+{
+    margin-top:7%;
+    margin-bottom:5%;
+    width:90%;
+    margin-left:5%;
+    border:0.5px solid #a0a4a7;
+    box-sizing:border-box;
+}
+.user_icon img
+{
+    width:100%;
+    height:50%;
+}
+
+
+/* team_list */
+.menu_sub
+{
+    width:98%;
+    margin-left:2%;
+    height:100%;
+    background-color:#20242c;
+    vertical-align:central;
+    display:none;
+    box-shadow:1px 0 1px #222;
+}
+.amount
+{
+    float:right;
+    margin-right:15%;
+    color:white;
+}
+.sub_index
+{
+    
+    color:#a0a4a7;
+    text-align:center;
+    border-radius:5px;
+    background-color:#404a53;
+    padding:4%;
+    margin-top:10%;
+    margin-left:5%;
+    margin-right:5%;
+}
+.sub_title
+{
+    width:100%;
+    font-size:15px;
+    font-weight:800;
+    margin-top:10%;
+    color:white;
+    text-align:left;
+    display:inline-block;
+    margin-left:5%
+}
+.sub_title img
+{
+    width:15%;
+    display:inline-block;
+    vertical-align:auto;
+    float:right;
+    margin-right:10%;
+}
+.team_img img
+{
+    width:70%;
+}
+
+.sub_team_list
+{
+    position:relative;
+    width:100%;
+    /* height:80%; */
+    margin-top:10%;
+    margin-bottom:10%;
+    color:#a0a4a7;
+    background-color:#20242c;
+    
+}
+.sep_team
+{
+    margin-top:10%;
+    font-size:11px;
+    font-weight:600;
+    text-align:center;
+}
+
+.team_name
+{
+    width:40%;
+    display:inline-block;
+}
+.sep_team img
+{
+    width:3%;
+    float:right;
+    display:inline-block;
+    margin-right:5%;
+    margin-top:2%;
+}
+.sub_cont
+{
+    position:relative; 
+    display:none;
+    float:right;
+    width:99%; 
+    margin-left:2%;
+    height:100%;
+    background-color:#242c34;
+    box-shadow:1px 0 2px #111;
+}
+.sub_search_wrap
+{
+    clear:both;
+    width:90%;
+    margin-left:5%;
+    border-radius:30px;
+    margin-top:5%;
+    margin-bottom:5%;
+    background-color:#404a53;
+}
+.sub_search_wrap img
+{
+   position:relative;
+   width:10%;
+   height:10%;
+   margin-left:3%;
+   vertical-align:middle;
+}
+.team_member{
+	float:left;
+	display:none;
+}
+.member_detail_wrap
+{
+    float:left;
+    margin-top:5%;
+    position:relative;
+    width:90%;
+    padding:5%;
+    margin-bottom:5%;
+    border-bottom:1px solid #cccccc;
+    padding-bottom:5%;
+    font-size:11px;
+}
+.fold_img, .fold_menu_img, .fold_user_img{
+	width:10%;
+	position:absolute;
+	right:5px;
+}
+.report_option_list{
+	width:100%;
+	float:left;
+}
+.report_option_sub_wrap
+{
+    display:none;
+    float:left;
+    margin-top:5%;
+    position:relative;
+    width:90%;
+    padding:5%;
+    margin-bottom:5%;
+    border-bottom:1px solid #cccccc;
+    padding-bottom:5%;
+}
+.detail_info_wrap
+{
+    position:relative;
+    float:left;
+    width:75%;
+    height:100%;
+    color:white;
+    padding-left:5%;
+}
+.member_icon
+{
+    position:relative;
+    float:left;
+    width:15%;
+    height:100%; 
+    border-bottom:1px solid #cccccc;
+    display:inline-block;
+}
+.member_icon img
+{
+    width:100%;
+}
+.member_detail_position
+{
+    position:relative;
+    width:100%;
+    height:30%;
+    float:left;
+    display:inline-block;
+    color:#a0a4a7;
+}
+.member_detail_part
+{
+    position:relative;
+    width:100%;
+    height:100%;
+    display:inline-block;
+    color:#a0a4a7;
+}
+.member_detail_name
+{
+    position:relative;
+  	font-size:13px;
+    font-weight:800;
+    width:100%;
+    height:100%;
+    display:inline-block;    
+}
+.member_info_wrap
+{
+    width:100%;
+    display:none;
+    margin-top:10%;
+    color:#a0a4a7;
+}
+.search_bar
+{
+   position:relative;
+   font-size:15px;
+   width:70%;
+   height:70%;
+   padding-top:5%;
+   padding-bottom:5%;
+   display:inline-block;
+   background-color:#404a53;
+   border:0px solid #404a53;
+   border-right:0px solid #404a53;
+   color:white;
+}
+
+
+
+
+/* iframe css */
+.setframe
+{
+    position:relative;
+    float:left;
+    width:59%;
+}
+
+
+/* 리포트 서브메뉴 */
+.report_option_wrap
+{
+    position:relative;
+    width:100%;
+    float:left;
+}
+.report_option_select
+{
+    margin-top:5%;
+}
+.report_option_select span
+{
+    position:relative;
+    width:70%;
+    margin-left:10%;
+    text-align:left;
+    font-size:13px;
+    color:white;
+    border-bottom:1px solid #94999f;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+.report_status_list
+{
+  width:90%;
+  margin-left:%;
+  color:white;
+  text-align:center;
+  font-size:1vw;
+  margin-top:5%;
+
+}
+
+
+/* 대시보드 콘텐츠 */
+/*
+#sub_dash {
+    position:relative;
+    float: left;
+    width: 25%;
+    background-color: #242c34;
+}
+*/
+.term_search
+{
+    border-bottom:1px solid white;
+    font-size:1.2vw;
+    color:white;
+    padding-bottom:4%;
+}
+.user_search
+{
+    margin-top:10%;
+    border-bottom:1px solid white;
+    font-size:1.2vw;
+    color:white;
+    padding-bottom:4%;
+}
+.term_cri_wrap
+{
+    width:100%;
+}
+.term_cri
+{
+   margin-top:2%;
+   width:15%;
+   background-color:#cccccc;
+   border:1px solid #5a5c5d;
+   float:left;
+   font-size:1vw;
+   display:inline-block;
+   text-align:center;
+   padding:1%;
+}
+.search_date
+{
+    clear:both;
+   margin-top:10%;
+   width:100%;
+   background-color:#cccccc;
+   font-size:1vw;
+   display:inline-block;
+   text-align:center;
+   padding:1%;
+    border:1px solid #5a5c5d;
+}
+
+/* 리포팅 1차 서브 메뉴 */
+.report_alram
+{
+    width:90%;
+    margin-left:4%;
+    font-size:1.1vw;
+    color:#cccccc;
+    text-align:center;
+    color:#cccccc;
+}
+
+/* 사용자 */
+.my_info_wrap {
+   clear: both;
+   width: 99%;
+   height: 100%;
+   background-color: #242c34;
+   float: left;
+   margin-left:1%;
+}
+
+.my_info_menu {
+   position: relative;
+   float: left;
+   width: 100%;
+   padding-top: 5%;
+   padding-bottom: 5%;
+}
+
+.my_info_menu img {
+   width: 10%;
+}
+
+.close {
+   position: relative;
+   float: left;
+   margin-left: 5%;
+   color: white;
+   font-size: 15px;
+   font-weight: 800;
+}
+
+.alram {
+   position: relative;
+   float: right;
+   margin-right: 5%;
+}
+
+.my_info_cont {
+   clear: both;
+   width: 100%;
+   padding-bottom: 5%;
+   padding-top: 5%;
+   border-top: 1px solid #555555;
+}
+
+.my_info_pic {
+   width: 100%
+}
+
+.my_info_pic img {
+  	width: 35%;
+    margin: 0 auto;
+    margin-left: 32.5%;
+}
+
+.my_info_name {
+   font-size: 14px;
+   font-weight: 700;
+   width: 70%;
+   margin-left: 15%;
+   margin-top:5%;
+   text-align: center;
+   color: white;
+}
+
+.my_info_depart {
+   font-size: 14px;
+   font-weight: 500;
+   margin-top: 2%;
+   width: 70%;
+   margin-left: 15%;
+   text-align: center;
+   color: white;
+}
+
+.my_info_cont_sub {
+   width: 100%;
+   font-size:12px;
+   color:white;
+   font-weight:bold;
+}
+
+.my_info_tel {
+  width: 90%;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-bottom: 1px solid #555555;
+    border-top: 1px solid #555555;
+    float: left;
+    margin: 5% 5% 0 5%;
+}
+
+.my_info_phone {
+   width: 90%;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-bottom: 1px solid #555555;
+    float: left;
+    margin: 0 5%;
+}
+
+.my_info_mail {
+   width: 90%;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-bottom: 1px solid #555555;
+    float: left;
+    margin: 0 5%;
+}
+.info_title
+{
+	float:left;
+}
+.info_cont
+{
+	float:right;
+	font-weight:normal;
+}
+.card_manage {
+   clear: both;
+   width: 90%;
+   margin:0 5%;
+   font-size:12px;
+   font-weight: 600;
+   text-align: center;
+   padding-bottom: 5%;
+   padding-top: 5%;
+   border-bottom: 1px solid #555555;
+   color: white;
+}
+
+.card_manage img {
+   float: left;
+}
+.pri_manage
+{
+   clear: both;
+   width: 90%;
+   margin:0 5%;
+   font-size:12px;
+   font-weight: 600;
+   text-align: center;
+   padding-bottom: 5%;
+   padding-top: 5%;
+   border-bottom: 1px solid #555555;
+   color: white;
+}
+.rank_wrap
+{
+	clear: both;
+   width: 90%;
+   margin:0 5%;
+   font-size:12px;
+   font-weight: 600;
+   text-align: center;
+   padding-bottom: 5%;
+   padding-top: 5%;
+   color: white;
+   display:none;
+}
+.rank_info
+{
+	width:100%;
+	text-align:center;
+	padding-bottom:2%;
+	padding-top:2%;
+	border-bottom:1px solid #55555;
+	color:white;
+	font-size:8px;
+}
+
+.my_info_modify{
+   width:30%;
+   float:right;
+   font-weight:800;
+   font-size:1vw;
+   color:white;
+   text-align:center;
+}

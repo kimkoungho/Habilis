@@ -1,0 +1,118 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+
+    
+    <script src="include/jquery.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/ReceiptManage.css"/>
+
+    <style>
+        .modal-dialog{
+            width:100%;
+        }
+        table{
+            border-collapse:initial;
+        }
+    </style>
+    <script>
+        $('.btn btn-primary').click(function(){
+             $('#Modal').modal('show');
+        });
+        $('.11111').click(function(){
+            $('#Modal').modal('show');
+        });
+    </script>
+</head>
+<body>
+<!-- Large modal -->
+<button class="btn btn-primary" data-toggle="modal" data-target="#Modal">Login modal</button>
+
+<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;</button>
+                <div class="member_title">NO. </div>
+            </div>
+            <div class="modal-body">
+                <div class="content_info">
+                    
+                    <table class="member_sub_wrap">
+                        <tbody>
+                            <tr class="member_user">
+                                <td class="member_first">담당자</td>
+                                    <td class="member_second">
+                                        
+                                    </td>
+                                    <td class="member_first">파일첨부</td>
+                                    <td rowspan="8" class="member_pic">
+                                        <div class="detail_pic">
+                                            <img src="IMAGES/report.png" />
+                                        </div>
+                                    </td>
+                            </tr>
+                        
+                            <tr class="member_user">
+                                <td class="member_first">업체명</td>
+                                <td class="member_second">
+                                
+                                </td>
+                                <td class="member_first"></td>
+                            </tr>
+                            <tr class="member_user">
+                                <td class="member_first">영수일시</td>
+                                <td class="member_second">
+                                    
+                                    <img src="IMAGES/calendar.bmp" style="width: auto; height: 60%;"/>
+                                </td>
+                                <td class="member_first"></td>
+                            </tr>
+                            <tr class="member_user">
+                                <td class="member_first">영수금액</td>
+                                <td class="member_second">
+                                
+                                </td>
+                                <td class="member_first"></td>
+                            </tr>
+                            <tr class="member_user">
+                                <td class="member_first">분 류</td>
+                                <td class="member_second">
+                                    
+                                </td>
+                                <td class="member_first"></td>
+                            </tr>
+                            <tr class="member_user">
+                                <td class="member_first">결제방법</td>
+                                <td class="member_second">
+                                    
+                                </td>
+                                <td class="member_first"></td>
+                            </tr>
+                            <tr class="member_user">
+                                <td class="member_first">등급</td>
+                                <td class="member_second">
+                                    
+                                </td>
+                                <td class="member_first"></td>
+                            </tr>
+                            <tr class="member_user">
+                                <td class="member_first">메 모</td>
+                                <td class="member_text">
+                                    
+                                </td>                  
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                    
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

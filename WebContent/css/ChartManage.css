@@ -1,0 +1,210 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap {
+	width: 1400px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.menu {
+	background-color: #5fb801;
+}
+
+.content_menu {
+	clear: both;
+	position: relative;
+	width: 100%;
+	height: 5%;
+	background-color: #edeff3;
+	border-bottom: 1px solid #cccccc;
+}
+
+.menu_name {
+	position: relative;
+	text-align: center;
+	font-size: 2.0vw;
+	font-weight: 500;
+	color: black;
+	border-bottom: 2px solid black;
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 1%;
+	margin-top: 2%;
+}
+
+.content_border {
+	width: 100%;
+	height: 100%;
+	background-color: #ecedee;
+}
+
+.content_info {
+	width: 100%;
+	background-color: #edeff3;
+	margin-bottom: 2%;
+}
+
+.calendar {
+	width: 25%;
+	padding-top: 2%;
+	margin-left: 3%;
+	color: black;
+	font-weight: 600;
+	padding-top: 0.5%;
+}
+
+.member_wrap {
+	width: 90%;
+	height: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 4%;
+	padding-bottom: 15%;
+}
+
+.member_sub_wrap {
+	width: 100%;
+	height: 100%;
+}
+
+.member_cont {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+
+.member_sum {
+	font-size: 1.2vw;
+	font-weight: 500;
+	color: black;
+	text-align: left;
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+
+.member_user {
+	clear: both;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+.member_TOTAL {
+	font-size: 1.2vw;
+	font-weight: 500;
+	width: 18%;
+	display: inline-block;
+	text-align: center;
+	border-bottom: 2px solid #848484;
+	margin-top: 1.5%;
+	margin-left: 6%;
+	margin-right: 6%;
+	margin-bottom: 1.5%;
+	padding-bottom: 0.5%;
+}
+
+.member_MAX {
+	font-size: 1.2vw;
+	font-weight: 500;
+	width: 18%;
+	display: inline-block;
+	text-align: center;
+	border-bottom: 2px solid #848484;
+	margin-top: 1.5%;
+	margin-left: 6%;
+	margin-right: 6%;
+	margin-bottom: 1.5%;
+	padding-bottom: 0.5%;
+}
+
+.member_AVERAGE {
+	font-size: 1.2vw;
+	font-weight: 500;
+	width: 18%;
+	display: inline-block;
+	text-align: center;
+	border-bottom: 2px solid #848484;
+	margin-top: 1.5%;
+	margin-left: 6%;
+	margin-right: 6%;
+	margin-bottom: 1.5%;
+	padding-bottom: 0.5%;
+}
+
+.member_chart {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	margin-top: 3%;
+}
+
+.member_dount {
+	font-size: 1.7vw;
+	font-weight: 500;
+	width: 40%;
+	height: 100%;
+	display: inline-block;
+	margin-left: 5%;
+	margin-bottom: 3%;
+}
+
+.member_dount_canvas {
+	width: 100%;
+	margin-right: 6.5%;
+	margin-bottom: 3%;
+}
+
+#radar {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#dount {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.member_stack {
+	font-size: 1.7vw;
+	font-weight: 500;
+	width: 40%;
+	height: 100%;
+	display: inline-block;
+	margin-left: 4%;
+	margin-right: 5%;
+	margin-bottom: 3%;
+}
+
+.member_line {
+	width: 90%;
+	height: 100%;
+	display: inline-block;
+	margin-top: 3%;
+	margin-left: 4%;
+	margin-bottom: 6%;
+	text-align: top;
+}
+
+.member_line_canvas {
+	font-size: 1.7vw;
+	font-weight: 500;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	text-align: top;
+}
+
+#canvas1 {
+	
+}
+

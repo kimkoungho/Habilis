@@ -1,0 +1,738 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+.chatting
+{
+	position:absolute;
+	width:300px;
+	height:500px;
+	top:100px;
+	right:15px;
+	display:none;
+}
+.modal-header
+{
+	background-color:#242c34;
+	color:white;
+	font-weight:800;
+	font-size:20px;
+}
+.close
+{
+	color:white;
+}
+.top_wrap {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+#dash_date, #receipt_date, #report_date{
+	position:absolute;
+	z-index:5;
+	display:none;
+}
+.left_side {
+	position: relative;
+	width: 5%;
+	height: 100%;
+	float: left;
+	margin: 0;
+	overflow: hidden;
+}
+
+.center {
+	position: relative;
+	width: 95%;
+	height: 100%;
+	float: left;
+	margin: 0;
+}
+
+/**/
+#report_write {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	display: none;
+}
+/* 부트 스트랩 고치기 */
+th {
+	text-align: center;
+}
+
+table {
+	border-collapse: initial;
+}
+
+.modal-dialog {
+	width: 90%;
+	height:80%;
+}
+
+.modal-body {
+	width: 100%;
+	float: left;
+	background-color: white;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+.swiper-slide img{
+	width:70%;
+	height:100%;
+}
+
+.manage_left {
+	width: 55%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+
+.manage_table_area {
+	height: 80%;
+}
+
+.manage_right {
+	width: 45%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	text-align: left;
+	padding:2%;
+}
+.right_img{
+	width:80%;
+}
+.number {
+	font-size: 1.1vw;
+	font-weight: 800;
+	border-bottom: 1px solid black;
+	width: 60%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+.manage_report_title{
+	width:90%;
+	font-size: 2vw;
+	font-weight: 800;
+	padding-bottom: 1%;
+	border-bottom: 1px solid black;
+	margin-left:5%;
+	margin-bottom:20%;
+}
+.table_approval {
+	width:45%;
+	float:left;
+	height: 15%;
+	margin-left: 5%;
+	margin-bottom: 2%;
+	border-collapse: collapse;
+	font-size:1.1vw;
+	font-weight: 800;
+}
+.table_approval td{
+	border:1px solid black;
+	text-align:center;
+}
+.table_title {
+	
+}
+
+
+.manage_table_title {
+	width:45%;
+	float:left;
+}
+
+.title_name {
+	border: none;
+	text-align: center;
+	width: 100%;
+}
+
+#report_delay{
+	width:90%;
+	padding-left:5%;
+	border:0;
+}
+
+.table_content {
+	width: 93%;
+	height: 60%;
+	padding: 0%;
+	font-size: 0.8vw;
+	margin-top: 3%;
+	font-weight: 800;
+	border-collapse: collapse;
+}
+.table_content th{
+	/* text-align:center; */
+}
+.table_content_title {
+	border-bottom: 1px solid gray;
+}
+
+.table_content_line {
+	border-bottom: 1px solid gray;
+}
+
+.table_content_info {
+	padding-top:1%;
+	padding-bottom:1%;
+}
+.cost_total{
+	text-align:right;
+}
+.manage_area {
+	margin-top: 1.5%;
+	height: 20%;
+}
+
+.manage_con {
+	margin-bottom: 2%;
+	font-size: 1.3vw;
+	font-weight: 800;
+	text-align: center;
+}
+
+.manage_cal {
+	font-size: 1.8vw;
+	font-weight: 800;
+	text-align: center;
+}
+.manager_left{
+	float:left;
+	width:45%;
+}
+.manager_right{
+	float:left;
+	width:45%;
+	text-align:right;
+}
+.manager {
+	
+	display: inline-block;
+	margin-right:5%;
+}
+.report_level{
+	
+}
+.manager_name {
+	display: inline-block;
+	padding-bottom:2%;
+	border-bottom: 1px solid black;
+	
+}
+
+.manage_line{
+	width: 100%;
+	height: 10%;
+	float: left;
+	margin-top: 4%;
+}
+
+ .manage_line1, .manage_line2 {
+	width: 100%;
+	height: 10%;
+	float: left;
+	margin-top: 4%;
+	text-align:center;
+}
+
+.manage_plus_button {
+	padding: 0.5%;
+	width: 10%;
+	display: inline-block;
+	font-size: 1vw;
+	font-weight: 800;
+	text-align:center;
+}
+#write_report{
+	display:inline-block;
+	background-color:black;
+	color:white;
+	clear: both;
+}
+#delay_report{
+	display:inline-block;
+	float:left;
+	background-color: #edeff3;
+	color:black;
+	margin-left:25%;
+}
+#approval_report{
+	display:inline-block;
+	float:left;
+	background-color:black;
+	color:white;
+	margin-left:25%;
+}
+
+.report_approval_btn{
+	width:60%;
+}
+.float_button
+{
+	position:absolute;
+	width:60px;
+	height:60px;
+	bottom:60px;
+	right:60px;
+	border-radius:50%;
+	background-color: #FFE400;
+	box-shadow:3px 3px gray;
+}
+.float_button img
+{
+	position:absolute;
+	top:0%;
+	left:30%;
+	width:50%;
+	height:100%;
+}
+.chat
+{
+	display:none;
+	width:300px;
+	height:500px;
+	position:absolute;
+	top:200px;
+	right:14px;
+}
+/* 팀원 초대  */
+.team_make_toggle {
+   position: absolute;
+   width: 300px;
+   height: 200px;
+   top: 0;
+   left: 0;
+   text-align: center;
+   background-color: #edeff3;
+   box-sizing: border-box;
+   display: none;
+   z-index: 10000;
+}
+
+.team_wrap {
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+
+.team_title {
+   position: relative;
+   width: 100%;
+   height: 30px;
+   background-color: black;
+   color: white;
+   line-height: 200%;
+   text-align: left;
+   font-weight: 800;
+   font-size:15px;
+}
+
+.team_cont_wrap {
+   width: 96%;
+   height: 86%;
+   margin-left: 2%;
+   margin-top: 2%;
+}
+
+.team_block {
+   width: 100%;
+   height: 120px;
+   display: inline-block;
+   float: left;
+}
+
+.team_status {
+   font-size: 1.5vw;
+   font-weight: 800;
+}
+
+
+.team_block select {
+   margin-top: 10%;
+   width: 90%;
+   margin-left: 5%;
+   display: block;
+}
+
+.team_line
+{
+   width:100%;
+}
+.plus {
+   padding:1.5%;
+   border:1px solid #cccccc;
+   clear: both;
+   width:30%;
+   font-size: 1px;
+   font-weight: 800;
+   background-color:#353d46;
+   color:white;
+   box-sizing:border-box;
+   margin-left:35%;
+}
+.name {
+   font-size: 1.5vw;
+   font-weight: 800;
+   width: 90%;
+   padding:1.5%;
+   margin-top: 5%;
+   border: 1px solid #cccccc;
+   box-sizing: border-box;
+   text-align:center;
+}
+.close
+{
+	width:10%;
+	padding:1%;
+}
+
+/* 회원정보 수정하기 */
+.modify_cont {
+   position: absolute;
+   width: 48%;
+   height: 60%;
+   top: 30%;
+   left: 40%;
+   text-align: left;
+   background-color: black;
+   box-sizing: border-box;
+   border:3px solide #242c34;
+   z-index: 10000;
+   border-radius:10px;
+}
+
+.modify_wrap {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   border-radius:10px;
+   background-color: #242c34;
+}
+
+.modify_header {
+   position: relative;
+   width: 100%;
+   height: 10%;
+   border-top-left-radius:5px;
+   border-top-right-radius:5px;
+   background-color: #242c34;
+   border-bottom: 2px solid #ccc;
+   color: white;
+   line-height: 200%;
+   text-align: left;
+   font-size:2vw;
+   font-weight: 800;
+}
+
+
+.modify_cont_wrap {
+   width: 96%;
+   height: 70%;
+   margin-left: 2%;
+   margin-top: 2%;
+   margin-bottom:2%;
+   background-color: #242c34;
+}
+
+.modify_block {
+   width: 80%;
+   height: 90%;
+   margin-left:10%;
+}
+.table_first{
+   width:25%;  
+   text-align:center;
+   color:white;
+   padding-bottom:1%;
+   
+}
+.table_first_name{
+   width:90%;
+   height:80%;
+   font-size:1.1vw;
+   font-weight:800;
+   padding-right:10%;
+   border-right:2px solid #ccc;
+}
+.table_second{
+   height:15%;
+   text-align:center;
+   font-weight:800;
+   padding-bottom:1%;
+}
+.pro_modi{
+   width:80%;
+   height:90%;
+   margin-left:5%;
+   border-bottom: 2px solid #ccc;
+}
+.pro_sub_modi{
+   width:80%;
+   height:90%;
+   background-color: transparent;
+   color:white;
+   border : transparent;
+   text-align:center;
+   margin-bottom:3%;
+}
+
+
+.pro_plus {
+   padding:0.5%;
+   border:1px solid #cccccc;
+   clear: both;
+   width:15%;
+   text-align:center;
+   margin-left:42%;
+   font-size: 1.5vw;
+   font-weight: 800;
+   background-color:white;
+   color:#242c34;
+   border-radius:5px;
+}
+
+/* 부서추가하기 */
+.modify_cont {
+   position: absolute;
+   width: 48%;
+   height: 60%;
+   top: 30%;
+   left: 40%;
+   text-align: left;
+   background-color: black;
+   box-sizing: border-box;
+   border:3px solide #242c34;
+   z-index: 10000;
+   border-radius:10px;
+}
+
+.modify_wrap {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   border-radius:10px;
+   background-color: #242c34;
+}
+
+.modify_header {
+   position: relative;
+   width: 100%;
+   height: 10%;
+   border-top-left-radius:5px;
+   border-top-right-radius:5px;
+   background-color: #242c34;
+   border-bottom: 2px solid #ccc;
+   color: white;
+   line-height: 200%;
+   text-align: left;
+   font-size:2vw;
+   font-weight: 800;
+}
+
+
+.modify_cont_wrap {
+   width: 96%;
+   height: 70%;
+   margin-left: 2%;
+   margin-top: 2%;
+   margin-bottom:2%;
+   background-color: #242c34;
+}
+.select_radio{
+   text-align:center;
+   margin-left:15%;
+   margin-bottom:3%;
+}
+.modify_block {
+   width: 90%;
+   height: 90%;
+   margin-left:5%;
+}
+.depart_radio{
+   width:30%;
+   display:inline-block;
+   font-size:1.1vw;
+   color:white;
+   text-align:left;
+}
+.table_center{
+   width:50%;  
+   text-align:center;
+   color:white;
+   padding-bottom:1%;
+   
+}
+.table_center_name{
+   width:70%;
+   height:80%;
+   font-size:1.1vw;
+   font-weight:800;
+   margin-left:15%;
+   padding-right:10%;
+}
+.table_first{
+   width:25%;  
+   text-align:center;
+   color:white;
+   padding-bottom:1%;
+   
+}
+.table_first_name{
+   width:95%;
+   height:80%;
+   font-size:1.1vw;
+   font-weight:800;
+   padding-right:10%;
+   border-right:2px solid #ccc;
+}
+.table_second_name
+{
+   width:100%;
+   height:80%;
+   font-size:1.1vw;
+   font-weight:800;
+   padding-right:10%;
+}
+.member_invi_box{
+   width:80%;
+   height:90%;
+   background-color: transparent;
+   color:black;
+   border:1px solid black;
+   font-size:1.5vw;
+   text-align:center;
+   margin-bottom:3%;
+}
+
+.depart_modi{
+   width:80%;
+   height:90%;
+   margin-left:5%;
+}
+.pro_sub_modi{
+   width:100%;
+   height:90%;
+   background-color: transparent;
+   color:white;
+   border : transparent;
+   text-align:center;
+   margin-bottom:3%;
+}
+.depart_plus {
+   padding:0.5%;
+   border:1px solid #cccccc;
+   clear: both;
+   width:15%;
+   text-align:center;
+   margin-left:42%;
+   font-size: 1.5vw;
+   font-weight: 800;
+   background-color:white;
+   color:#242c34;
+   border-radius:5px;
+}
+
+
+/* 다이얼로그 */
+/* 팀원초대하기 */
+.team_invi{
+	width: 40%;
+}
+.team_member_cont {
+   position: absolute;
+   width: 48%;
+   height: 60%;
+   top: 30%;
+   left: 40%;
+   text-align: left;
+   background-color: black;
+   box-sizing: border-box;
+   border:3px solide #242c34;
+   z-index: 10;
+   border-radius:10px;
+}
+
+.team__member_wrap {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   border-radius:10px;
+   background-color: #242c34;
+}
+
+.team_member_header {
+   position: relative;
+   width: 100%;
+   height: 10%;
+   border-top-left-radius:5px;
+   border-top-right-radius:5px;
+   background-color: #242c34;
+   border-bottom: 2px solid #ccc;
+   color: white;
+   line-height: 200%;
+   text-align: left;
+   font-size:2vw;
+   font-weight: 800;
+}
+
+
+.team_member_cont_wrap {
+   width: 96%;
+   height: 70%;
+   margin-left: 2%;
+   margin-top: 2%;
+   margin-bottom:2%;
+   background-color: white;
+}
+
+.team_member_block {
+   width: 90%;
+   height: 90%;
+   margin-left:10%;
+}
+
+.member_first{
+   height:15%;
+   text-align:center;
+   font-weight:800;
+   padding-bottom:5%;
+}
+.member_box{
+   width:80%;
+   height:90%;
+   margin-left:5%;
+}
+
+
+.member_plus {
+   padding:0.5%;
+   border:1px solid #cccccc;
+   clear: both;
+   width:30%;
+   text-align:center;
+   margin-left:35%;
+   font-size: 1.5vw;
+   font-weight: 800;
+   background-color:#242c34;
+   color:white;
+   border-radius:5px;
+}
